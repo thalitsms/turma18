@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Open+Sans:wght@300&family=Original+Surfer&display=swap");
+
+* body {
+  color: rgb(251, 248, 255);
+}
+
+input[type="text"], input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="button"] {
+  background-color: #bd2d69a8;
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: 130px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-image: url("../assets/img/send.svg");
+  background-position: 15px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+input[type="button"]:focus {
+  width: 100%;
+}
+
+input[type="button"]:hover {
+  background-color: #ddc97b;
+}
+
+.container {
+  border-radius: 15px;
+  background-color: rgba(184, 48, 154, 0.69);
+  width: 65%;
+  margin: 70px auto;
+}
+
+form {
+  width: 100%;
+}
+
+.row {
+  margin-top:4px;
+}
+

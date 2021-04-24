@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Comfortaa:wght@300&family=Indie+Flower&family=Maven+Pro&family=Nanum+Myeongjo&family=Shadows+Into+Light&family=Source+Code+Pro:ital,wght@0,200;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body {
+  font-family: "Maven Pro", sans-serif;
+  background-image: url(../assets/img/back-profile.jfif);
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7e4cc041;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+li a:hover:not(.active) {
+  background-color: #6e6177;
+  border-top-right-radius: 250px;
+  border-bottom-left-radius: 250px;
+  color: #fff;
+
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.active {
+  color: #6e6177;
+  font-family: "Source Code Pro", monospace;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+img {
+  margin-right: 10px;
+}
+
+.zoom {
+  overflow: hidden;
+}
+
+.zoom img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.zoom:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: #dfb8b0;
+  padding: 15px;
+  color: rgb(57, 82, 82);
+}
+
+@media (max-width: 1000px) {
+  .newspaper {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 700px) {
+  .newspaper {
+    column-count: 1;
+  }
+}
+
+.newspaper-2 {
+  padding: 35px;
+}
+
+#cat-1,
+#cat-2 {
+  border-radius: 250px;
+}
+
+footer {
+  padding: 15px;
+  color: rgb(57, 82, 82);
+  font-family: "Open Sans", sans-serif;
+}
+footer {
+  background-color: #7e4cc041;
+}
+
+#about-footer {
+  font-family: "Source Code Pro", monospace;
+  font-size: 25px;
+  font-weight: bolder !important;
+}
+
+.main,
+#main {
+  font-family: "Source Code Pro", monospace;
+  padding: 35px;
+}
+
+.main h3 {
+  font-size: 45px;
+  color: rgb(57, 82, 82);
+}
+
+.main p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  color: rgb(57, 82, 82);
+}
